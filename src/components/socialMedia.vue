@@ -1,4 +1,5 @@
 <template>
+<div id='wrapper'>
     <div id ='socialMedia'>
         <div class = 'icon'>
                 <i class="fab fa-instagram"></i>
@@ -10,6 +11,7 @@
                             <i class="fab fa-spotify"></i>
                         </div>
         </div>
+        </div>
 </template>
 
 <script>
@@ -18,11 +20,18 @@ export default {
 }
 </script>
 <style scoped>
+#wrapper{
+ display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #socialMedia{
     background-color: white;
     height:8%;
-    margin-left: 35%;
-    margin-right:35%;
+    width:40vw;
+    margin:0;
+    margin-bottom:-8px;
     display:flex;
     justify-content: center;
     align-items: center;

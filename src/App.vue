@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-<app-title/>
+<app-title id ="main"/>
 <!-- <div class = 'whiteSpace'/> -->
 <social-media/>
    </div>
@@ -35,6 +35,11 @@ socialMedia,
   background-color:black;
   height: 100vh;
   width:100%;
+}
+
+#main{
+  min-height:100%;
+  margin-bottom:-100px;
 }
 
 .whiteSpace{

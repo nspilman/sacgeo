@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 <app-title/>
-<div class = 'whiteSpace'/>
+<!-- <div class = 'whiteSpace'/> -->
 <social-media/>
    </div>
 </template>
@@ -20,13 +20,7 @@ socialMedia,
 
 
 <style>
-
-@font-face {
-  font-family: 'Raptor';
-  src:  url('/assets/fonts/raptor_sans.ttf') format('truetype');
-}
-
-
+@import 'https://use.fontawesome.com/releases/v5.6.3/css/all.css';
 
 #app {
   font-family: "Raptor";

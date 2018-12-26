@@ -21,8 +21,8 @@ export default {
 #socialMedia{
     background-color: white;
     height:8%;
-    margin-left: 45%;
-    margin-right:45%;
+    margin-left: 35%;
+    margin-right:35%;
     display:flex;
     justify-content: center;
     align-items: center;

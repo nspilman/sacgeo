@@ -32,6 +32,10 @@ export default {
     align-items: center;
 }
 
+a{
+    color:black;
+}
+
 #socialMedia{
     background-color: white;
     height:8%;

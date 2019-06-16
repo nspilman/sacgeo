@@ -1,6 +1,6 @@
 <template>
     <div id = "about">
-        <div class = "container">
+        <div class = "main-text-wrapper">
             <h2> About Sac Geo</h2>
         {{mainText}}
         </div>
@@ -33,6 +33,13 @@ export default {
   /* background-size: 100%; */
   background-color:black;
   background-attachment: fixed;
+}
+
+.main-text-wrapper{
+    padding:3vw;
+    margin:15vw;
+    background-color:rgba(255,234,0,.8);
+    border-radius: 2em;
 }
 
 </style>

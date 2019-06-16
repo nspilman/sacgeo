@@ -8,11 +8,9 @@ export default {
     data(){
         return{
             titleString: 'SACRED GEOMETRY',
-            h1s:''
 
         }},
         created(){
-            this.h1s = 'yooooo'
         }
     }
     

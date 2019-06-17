@@ -2,18 +2,21 @@
 <div>
   <Home/>
   <About/>
+  <Shop/>
   <!-- <Home/> -->
 </div>
 </template>
 
 <script>
-import Home from "./components/Home/Index"
-import About from "./components/About/Index"
+import Home from "./components/Home/"
+import About from "./components/About/"
+import Shop from "./components/Shop/"
 
 export default {
   components:{
     Home,
-    About
+    About,
+    Shop
   }
 }
 </script>

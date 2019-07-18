@@ -1,5 +1,6 @@
 <template>
     <div id = "shop">
+        <h2>SHOP </h2>
         <a href ="https://teespring.com/stores/sac-geo-store">
             <img class = "tshirt" src = "https://vangogh.teespring.com/v3/image/zBGOzTrfnWUaeY__Fv-CBeWHfTw/480/560.jpg"/>
         </a>
@@ -30,11 +31,16 @@ export default {
   display:flex;
   align-items:center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .tshirt{
     height:20vw;
     width:20vw;
+}
+
+h2{
+    color:white;
 }
 
 </style>

@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.22",
+    "update": "^0.7.4",
     "vue": "^2.6.10"
   },
   "devDependencies": {

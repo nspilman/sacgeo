@@ -1,25 +1,25 @@
 <template>
-<div>
-  <Home/>
-  <About/>
-  <Shop/>
-  <Contact/>
-  <!-- <Home/> -->
-</div>
+  <div>
+    <Home />
+    <About />
+    <Shop />
+    <Contact />
+    <!-- <Home/> -->
+  </div>
 </template>
 
 <script>
-import Home from "./components/Home/"
-import About from "./components/About/"
-import Shop from "./components/Shop/"
-import Contact from "./components/Contact/"
+import Home from "./components/Home/Home.vue";
+import About from "./components/About/About.vue";
+import Shop from "./components/Shop/Shop.vue";
+import Contact from "./components/Contact/Contact.vue";
 
 export default {
-  components:{
+  components: {
     Home,
     About,
     Shop,
     Contact
   }
-}
+};
 </script>

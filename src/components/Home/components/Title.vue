@@ -1,26 +1,23 @@
 <template>
-    <div id = 'title' class = 'text-center'>
-        <h1>{{titleString}}</h1>
-    </div>
+  <div id="title" class="text-center">
+    <h1>{{ titleString }}</h1>
+  </div>
 </template>
 <script>
 export default {
-    data(){
-        return{
-            titleString: 'SACRED GEOMETRY',
-
-        }},
-        created(){
-        }
-    }
-    
+  data() {
+    return {
+      titleString: "SACRED GEOMETRY"
+    };
+  },
+  created() {}
+};
 </script>
 <style scoped>
-@import 'https://fonts.googleapis.com/css?family=Dosis';
-h1{
-    color:white;
-    font-family: 'Dosis', sans-serif;
-    font-size:20vw;
+@import "https://fonts.googleapis.com/css?family=Dosis";
+h1 {
+  color: white;
+  font-family: "Dosis", sans-serif;
+  font-size: 20vw;
 }
-
 </style>
